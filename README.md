@@ -22,10 +22,6 @@
 ### SCREEN SHOT
 -------
 
-- H/W
-<img src="img/screen_shot_1.png" width="400px"> <img src="img/screen_shot_2.png" width="300px">
-
-- Android App
-<img src="img/screen_shot_3.png" width="300px"> <img src="img/screen_shot_4.png" width="300px"> <img src="img/screen_shot_5.png" width="300px"> 
+<img src="img/screen_shot_1.png" width="400px">
 
 [1]: ppt/hanium_2015.pdf
