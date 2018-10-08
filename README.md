@@ -24,4 +24,4 @@
 
 <img src="img/screen_shot_1.png" width="400px">
 
-[1]: ppt/hanium_2015.pdf
+[1]: document/hanium_2015.pdf
