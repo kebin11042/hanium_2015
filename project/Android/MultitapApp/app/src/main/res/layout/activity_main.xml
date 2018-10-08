@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/th_white"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtvMainBT"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="블루투스로 제어하기"
+        android:textSize="16dp"
+        android:textColor="@color/th_black"
+        android:background="@drawable/selector_main"/>
+
+    <TextView
+        android:id="@+id/txtvMainWeb"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="웹으로 제어하기"
+        android:textSize="16dp"
+        android:textColor="@color/th_black"
+        android:background="@drawable/selector_main"/>
+
+</LinearLayout>

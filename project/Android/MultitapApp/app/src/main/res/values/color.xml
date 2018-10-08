@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="th_white">#E9EAE9</color>
+    <color name="th_red">#C2606F</color>
+    <color name="th_black">#2C2D34</color>
+    <color name="th_green">#5D9EA1</color>
+    <color name="th_brown">#CDB5A3</color>
+    <color name="th_orange">#E6AD73</color>
+    <color name="th_grey">#5C5C5E</color>
+
+    <color name="th_green_pressed">#3D7E91</color>
+    <color name="th_orange_pressed">#C69D53</color>
+
+    <color name="Alpha">#00FFFFFF</color>
+    <color name="BackBtn">#33000000</color>
+</resources>

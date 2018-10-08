@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+          android:exitFadeDuration="180">
+    <item
+        android:state_window_focused="false">
+        <shape
+            android:shape="oval">
+            <solid android:color="@color/th_green"/>
+        </shape>
+    </item>
+
+    <item
+        android:state_focused="true"
+        android:state_pressed="true"
+        android:state_enabled="false">
+        <shape
+            android:shape="oval">
+            <solid android:color="@color/th_green"/>
+        </shape>
+    </item>
+
+    <item
+        android:state_focused="true"
+        android:state_enabled="false">
+        <shape
+            android:shape="oval">
+            <solid android:color="@color/th_green"/>
+        </shape>
+    </item>
+
+    <item
+        android:state_focused="true"
+        android:state_pressed="true"
+        android:state_enabled="true">
+        <shape
+            android:shape="oval">
+            <solid android:color="@color/th_green_pressed"/>
+        </shape>
+    </item>
+
+    <item
+        android:state_focused="false"
+        android:state_pressed="true" >
+        <shape
+            android:shape="oval">
+            <solid android:color="@color/th_green_pressed"/>
+        </shape>
+    </item>
+
+</selector>

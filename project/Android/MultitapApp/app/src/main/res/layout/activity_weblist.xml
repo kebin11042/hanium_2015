@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/th_white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/th_brown">
+
+        <ImageButton
+            android:id="@+id/ibtnBack"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_back"
+            android:background="@drawable/selector_back_btn"
+            android:scaleType="centerCrop"
+            android:padding="10dp"/>
+
+        <ImageButton
+            android:layout_gravity="right"
+            android:id="@+id/ibtnWeblistPlus"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_plus"
+            android:background="@drawable/selector_back_btn"
+            android:scaleType="centerCrop"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/th_grey"
+            android:text="멀티탭 리스트"
+            android:textSize="18dp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listvWeblistList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+        <TextView
+            android:id="@+id/txtvWeblistNothing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="등록된 멀티탭이 없습니다.\n멀티탭을 등록해 주세요"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/th_grey"/>
+
+        <ImageButton
+            android:id="@+id/ibtnWeblistBT"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/img_bluetooth"
+            android:scaleType="centerCrop"
+            android:padding="12dp"
+            android:background="@drawable/selector_weblist_bt_btn"/>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

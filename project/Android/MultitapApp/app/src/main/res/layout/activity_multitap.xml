@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/th_white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/th_brown" >
+
+        <ImageButton
+            android:id="@+id/ibtnBack"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_back"
+            android:background="@drawable/selector_back_btn"
+            android:scaleType="centerCrop"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txtvMultitapName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/th_grey"
+            android:text=""
+            android:textSize="18dp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/th_black"
+            android:gravity="center"
+            android:text="멀티탭 구 개수"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/txtvMultitapCnt"
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/th_green"
+            android:gravity="center"
+            android:text="0개"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/th_grey"/>
+
+    <ListView
+        android:id="@+id/listvMultitap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

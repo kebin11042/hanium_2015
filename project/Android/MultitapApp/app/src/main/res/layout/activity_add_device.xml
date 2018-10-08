@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/th_white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/th_brown">
+
+        <ImageButton
+            android:id="@+id/ibtnBack"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_back"
+            android:background="@drawable/selector_back_btn"
+            android:scaleType="centerCrop"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/th_grey"
+            android:text="멀티탭 추가"
+            android:textSize="18dp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="mac 주소 ( '-' 포함 )"
+            android:textSize="13dp"
+            android:textColor="@color/th_grey"/>
+
+        <EditText
+            android:id="@+id/edtxAddDeviceMAC"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="16dp"
+            android:textColor="@color/th_black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint=""/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="멀티탭 이름"
+            android:textSize="13dp"
+            android:textColor="@color/th_grey"/>
+
+        <EditText
+            android:id="@+id/edtxAddDeviceName"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="16dp"
+            android:textColor="@color/th_black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint=""/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/txtvAddDeviceOk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="추가"
+            android:textSize="16dp"
+            android:textColor="@color/th_white"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:background="@drawable/selector_login_bt_btn"/>
+
+    </FrameLayout>
+
+</LinearLayout>

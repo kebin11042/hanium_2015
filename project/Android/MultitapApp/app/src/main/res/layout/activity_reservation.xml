@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/th_white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/th_brown" >
+
+        <ImageButton
+            android:id="@+id/ibtnBack"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_back"
+            android:background="@drawable/selector_back_btn"
+            android:scaleType="centerCrop"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txtvMultitapName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/th_grey"
+            android:text="멀티탭 예약"
+            android:textSize="18dp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtvReservationDate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textColor="@color/th_green"
+            android:textSize="25dp"
+            android:text="0000년 00월 00일" />
+
+        <TextView
+            android:id="@+id/txtvReservationDateSet"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_login_bt_btn"
+            android:text="날짜 설정"
+            android:gravity="center"
+            android:textColor="@color/th_white"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:id="@+id/txtvReservationTime"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textColor="@color/th_green"
+            android:textSize="25dp"
+            android:text="00시 00분" />
+
+        <TextView
+            android:id="@+id/txtvReservationTimeSet"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_login_bt_btn"
+            android:text="시간 설정"
+            android:gravity="center"
+            android:textColor="@color/th_white"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:id="@+id/txtvReservationOk"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_login_login_btn"
+            android:text="예약 하기"
+            android:gravity="center"
+            android:textColor="@color/th_white"
+            android:textSize="15dp"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>

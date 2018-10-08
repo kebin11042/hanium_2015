@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/th_white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/th_brown">
+
+        <ImageButton
+            android:id="@+id/ibtnBack"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_back"
+            android:background="@drawable/selector_back_btn"
+            android:scaleType="centerCrop"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/th_grey"
+            android:text="블루투스 제어"
+            android:textSize="18dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtvMainAddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/th_grey"
+        android:text=" 블루투스 기기 주소 : "
+        android:gravity="center|left"/>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="1 구"
+            android:textSize="30dp"
+            android:textColor="@color/th_black"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnMainSocket1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="켜기"
+            android:textColor="@color/th_white"
+            android:background="@drawable/selector_login_login_btn"/>
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/btnMainSocket3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="끄기"
+            android:textColor="@color/th_white"
+            android:background="@drawable/selector_login_bt_btn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2 구"
+            android:textSize="30dp"
+            android:textColor="@color/th_black"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnMainSocket2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="켜기"
+            android:textColor="@color/th_white"
+            android:background="@drawable/selector_login_login_btn"/>
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/btnMainSocket4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="끄기"
+            android:textColor="@color/th_white"
+            android:background="@drawable/selector_login_bt_btn"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:enabled="false"
+            android:id="@+id/txtvBluetoothPlay"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="블루투스 활성"
+            android:gravity="center"
+            android:textColor="@color/th_white"
+            android:background="@drawable/selector_login_bt_btn"/>
+
+    </FrameLayout>
+
+</LinearLayout>
